@@ -1,3 +1,6 @@
+# rev = rev * 10 + num % 10
+# num = num // 10
+
 class Solution(object):
     def isPalindrome(self, x):
         if x<0:
