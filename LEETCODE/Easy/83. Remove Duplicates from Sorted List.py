@@ -1,5 +1,6 @@
 class Solution(object):
     def deleteDuplicates(self, head):
+        
         current = head
 
         while current and current.next:
@@ -8,6 +9,7 @@ class Solution(object):
                 current.next = current.next.next
 
             else:
+
                 current = current.next
             
         return head
