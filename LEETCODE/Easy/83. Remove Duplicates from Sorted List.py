@@ -5,7 +5,6 @@ class Solution(object):
 
         while current and current.next:
             if current.val == current.next.val:
-
                 current.next = current.next.next
             else:
                 current = current.next
