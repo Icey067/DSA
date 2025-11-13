@@ -4,7 +4,6 @@ class Solution(object):
         prevMap = {}
 
         for i, num in enumerate(nums):
-
             complement = target - num 
 
             if complement in prevMap:
