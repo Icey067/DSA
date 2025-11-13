@@ -8,7 +8,6 @@ class Solution(object):
             complement = target - num 
 
             if complement in prevMap:
-                
                 return [prevMap[complement], i]
 
             prevMap[num] = i
