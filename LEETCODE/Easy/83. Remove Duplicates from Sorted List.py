@@ -10,7 +10,6 @@ class Solution(object):
                 current.next = current.next.next
 
             else:
-                
                 current = current.next
             
         return head
