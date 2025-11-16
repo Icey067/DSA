@@ -1,5 +1,5 @@
 class Solution(object):
-    def maximizeExpressionOfThree(self, nums):
+    def maximizeExpressionOfThree(self, nums):scsc
         nums.sort()
 
         sum = nums[-1] + nums[-2] - nums[0]
