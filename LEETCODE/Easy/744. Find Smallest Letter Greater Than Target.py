@@ -7,6 +7,7 @@ class Solution(object):
             mid = (low + high) / 2
 
             if letters[mid]>target:
+                
                 high = mid -1 
 
             else:
