@@ -16,6 +16,7 @@ class Solution(object):
 
         if low == len(letters):
             return letters[0]
+        
         else:
             return letters[low]
         
