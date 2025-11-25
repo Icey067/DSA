@@ -6,7 +6,7 @@ class Solution(object):
         while low<=high:
             mid = (low + high) / 2
 
-            if letters[mid]>target:
+            if letters[mid]>target:  
                 high = mid -1 
 
             else:
